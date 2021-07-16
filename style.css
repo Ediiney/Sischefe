@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+    background-color:  #faf5f5;
+    margin: 0;  
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 1px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 90px;
+}
+
+.item-menu {
+    width: auto;
+    margin-left: 30px;
+    color: #212121;
+    font-weight: bold;
+}
+
+.item-menu:hover {
+    color: #f06161;
+}
+
+.item-do-menu {
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+    width: auto;
+    height: 100%;
+    font-weight: bold;
+    color: #212121;
+}
+
+.ver-produtos a {
+    color: #212121;
+}
+
+.cadastre-produtos {
+    border: none;
+    width: 200px;
+    margin-left: 50px;
+    height: 100%;
+    background-color: #f06161;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    width: 100%;
+    height: 500px;
+    background-image: url("imagens/Comida3.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;    
+}
+
+main {
+    width: 100%;
+    height: 650px;
+}
+
+.main-titulo {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-weight: bolder;
+    font-size: 40px;
+    color: #212121;
+}
+
+.main-conteudo {
+    width: 100%;
+    height: 540px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-conteudo-texto>h4 {
+    font-weight: bolder;
+    font-size: 42px;
+    color: #f06161;
+}
+
+.main-conteudo-texto>p {
+    font-weight: bolder;
+    font-size: 42px;
+    color: #212121;
+    padding: 5px;
+}
+
+.main-conteudo-foto>img {
+    border-radius: 25px;
+
+}
+
+.section-entregador {
+    width: 100%;
+    height: 550px;
+    background-color: #f06161;
+}
+
+.section-entregador {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section-conteudo-texto>h4{
+    font-weight: bolder;
+    font-size: 42px;
+    color: #fff;
+}
+
+.section-conteudo-texto>p {
+    font-weight: bolder;
+    font-size: 42px;
+    color: #212121;
+    padding: 5px;
+}
+
+.section-contato {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button{
+    background-color: #f06161;
+    border: none;
+    color: #fff;
+    padding: 15px 72px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #f06161;
+    height: 300px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.itens-footer {
+    margin-top: 15%;
+
+}
+
+.itens-footer-direitos {
+    margin-top: 15%;
+}
+
+.logo-footer {
+    height: 50px;
+}
